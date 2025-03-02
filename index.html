@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--======= daisy UI ====-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      src="https://kit.fontawesome.com/7b4657837f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-green-700">
+    <section class="max-w-md min-h-screen mx-auto bg-white">
+      <div class="h-8 w-full bg-green-800"></div>
+      <div class="flex justify-center mt-8">
+        <img src="assetes/images (1).png" alt="" />
+      </div>
+      <div>
+        <h3 class="mt-6 flex justify-center">Phone Number</h3>
+        <h4 class="flex justify-center text-gray-500">01770858366</h4>
+      </div>
+      <div class="mt-6 flex justify-center">
+        <p class="mr-5 text-green-700"><i class="fa-solid fa-lock"></i></p>
+        <input
+          id="input-value"
+          class="w-80 border-t-0 border-l-0 border-r-0 border-b-2-green-800"
+          type="password"
+        />
+      </div>
+      <div class="flex justify-center">
+        <button
+          id="button-login"
+          class="w-64 border border-green-700 mt-5 px-10 py-2 rounded-3xl"
+        >
+          login
+        </button>
+      </div>
+      <a class="flex justify-center text-gray-500 mt-3 cursor-pointer"
+        >Forget your pin</a
+      >
+      <div class="flex justify-between mt-[350px] mx-10 text-green-700">
+        <p class=""><i class="fa-solid fa-location-dot text-4xl"></i></p>
+        <p><i class="fa-solid fa-clipboard-question text-4xl"></i></p>
+      </div>
+    </section>
+    <script src="js/index.js"></script>
+  </body>
+</html>
